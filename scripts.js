@@ -10,7 +10,10 @@
 // }
 // console.log(nomDeMaFonction(On remplace le paramètre par ce qu'on désire)) // 
 
-// CODE ICI
+const multiplier = (a,b) => {
+ return a * b;
+}
+console.log(multiplier(3,4));
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 2
@@ -21,7 +24,12 @@
 // const monTableau = [1, 2, 3]
 // console.log(monTableau[0]) // 1
 
-// CODE ICI
+const myTab = [1,2,3,4,5,6,7,8];
+
+const arrayFirstElement = (tableau) => {
+    return tableau[0];
+   }
+   console.log(arrayFirstElement(myTab));
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 3
