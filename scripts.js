@@ -41,7 +41,14 @@ const arrayFirstElement = (tableau) => {
 // monTableau.pop()
 // console.log(monTableau) // [1, 2]
 
-// CODE ICI
+const myTab = [1,2,3,4,5,6,7,8];
+
+const supprLastElem = (myTab) => {
+    myTab.pop();
+   }
+   supprLastElem(myTab);
+
+   console.log(myTab)
 
 //----------------------------------------------------------------------------------------------//
 // EXERCICE 4
